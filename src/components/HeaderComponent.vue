@@ -1,17 +1,11 @@
 <template>
   <div class="header mb-12 shadow-2xl">
-    <NavbarComponent></NavbarComponent>
   </div>
 </template>
 
 <script>
-    import NavbarComponent from './NavbarComponent.vue';
-
     export default {
-        name: 'HeaderComponent',
-        components: {
-            NavbarComponent,
-        }
+        name: 'HeaderComponent'
     };
 </script>
 
